@@ -7,6 +7,9 @@
 
 header {
   height: 50px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
 
 section {
@@ -30,5 +33,13 @@ section {
 }
 
 .colorBox {
+  color: red;
+}
+
+#inputBox {
+  border: 1px black solid;
+}
+
+button:hover {
   color: red;
 }
